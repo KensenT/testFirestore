@@ -24,7 +24,7 @@ class ViewController: UIViewController {
 
                     if let name = document.data()["fullName"] as? String {
                         if let username = document.data()["username"] as? String {
-                            print(name, username)
+                            print("aaaaa", name, username)
                         }
                     }
                 }
