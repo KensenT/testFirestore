@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAB0C39DB8A53B95DA37E65 /* Pods_CloudFirestoreTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9525481F3DEB2651105D9C92 /* Pods_CloudFirestoreTraining.framework */; };
+		ED47DEAB21E856D20021A7A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED47DEAA21E856D20021A7A7 /* GoogleService-Info.plist */; };
+		ED8EFBFF21E5E47000B19D31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFBFE21E5E47000B19D31 /* AppDelegate.swift */; };
+		ED8EFC0121E5E47000B19D31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFC0021E5E47000B19D31 /* ViewController.swift */; };
+		ED8EFC0421E5E47000B19D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFC0221E5E47000B19D31 /* Main.storyboard */; };
+		ED8EFC0721E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED8EFC0521E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodeld */; };
+		ED8EFC0921E5E47200B19D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFC0821E5E47200B19D31 /* Assets.xcassets */; };
+		ED8EFC0C21E5E47200B19D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8EFC0A21E5E47200B19D31 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9525481F3DEB2651105D9C92 /* Pods_CloudFirestoreTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudFirestoreTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF395DA46F5314C85D9FEB8 /* Pods-CloudFirestoreTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFirestoreTraining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFirestoreTraining/Pods-CloudFirestoreTraining.debug.xcconfig"; sourceTree = "<group>"; };
+		D96CCBD29BE0B87221C647B6 /* Pods-CloudFirestoreTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudFirestoreTraining.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudFirestoreTraining/Pods-CloudFirestoreTraining.release.xcconfig"; sourceTree = "<group>"; };
+		ED47DEAA21E856D20021A7A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED8EFBFB21E5E47000B19D31 /* CloudFirestoreTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudFirestoreTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8EFBFE21E5E47000B19D31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED8EFC0021E5E47000B19D31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED8EFC0321E5E47000B19D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED8EFC0621E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CloudFirestoreTraining.xcdatamodel; sourceTree = "<group>"; };
+		ED8EFC0821E5E47200B19D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED8EFC0B21E5E47200B19D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED8EFC0D21E5E47200B19D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED8EFBF821E5E47000B19D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB0C39DB8A53B95DA37E65 /* Pods_CloudFirestoreTraining.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E85D67D667B19FC0686506E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAF395DA46F5314C85D9FEB8 /* Pods-CloudFirestoreTraining.debug.xcconfig */,
+				D96CCBD29BE0B87221C647B6 /* Pods-CloudFirestoreTraining.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACED05CA795298C3DD672E14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9525481F3DEB2651105D9C92 /* Pods_CloudFirestoreTraining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED8EFBF221E5E47000B19D31 = {
+			isa = PBXGroup;
+			children = (
+				ED8EFBFD21E5E47000B19D31 /* CloudFirestoreTraining */,
+				ED8EFBFC21E5E47000B19D31 /* Products */,
+				8E85D67D667B19FC0686506E /* Pods */,
+				ACED05CA795298C3DD672E14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED8EFBFC21E5E47000B19D31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EFBFB21E5E47000B19D31 /* CloudFirestoreTraining.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED8EFBFD21E5E47000B19D31 /* CloudFirestoreTraining */ = {
+			isa = PBXGroup;
+			children = (
+				ED8EFBFE21E5E47000B19D31 /* AppDelegate.swift */,
+				ED8EFC0021E5E47000B19D31 /* ViewController.swift */,
+				ED8EFC0221E5E47000B19D31 /* Main.storyboard */,
+				ED8EFC0821E5E47200B19D31 /* Assets.xcassets */,
+				ED8EFC0A21E5E47200B19D31 /* LaunchScreen.storyboard */,
+				ED8EFC0D21E5E47200B19D31 /* Info.plist */,
+				ED47DEAA21E856D20021A7A7 /* GoogleService-Info.plist */,
+				ED8EFC0521E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodeld */,
+			);
+			path = CloudFirestoreTraining;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED8EFBFA21E5E47000B19D31 /* CloudFirestoreTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED8EFC1021E5E47200B19D31 /* Build configuration list for PBXNativeTarget "CloudFirestoreTraining" */;
+			buildPhases = (
+				3A976DEB516986BE4B71177F /* [CP] Check Pods Manifest.lock */,
+				ED8EFBF721E5E47000B19D31 /* Sources */,
+				ED8EFBF821E5E47000B19D31 /* Frameworks */,
+				ED8EFBF921E5E47000B19D31 /* Resources */,
+				80EC1A5E81811C080DD07D63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudFirestoreTraining;
+			productName = CloudFirestoreTraining;
+			productReference = ED8EFBFB21E5E47000B19D31 /* CloudFirestoreTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED8EFBF321E5E47000B19D31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kensen Tjoa";
+				TargetAttributes = {
+					ED8EFBFA21E5E47000B19D31 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = ED8EFBF621E5E47000B19D31 /* Build configuration list for PBXProject "CloudFirestoreTraining" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED8EFBF221E5E47000B19D31;
+			productRefGroup = ED8EFBFC21E5E47000B19D31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED8EFBFA21E5E47000B19D31 /* CloudFirestoreTraining */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED8EFBF921E5E47000B19D31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8EFC0C21E5E47200B19D31 /* LaunchScreen.storyboard in Resources */,
+				ED47DEAB21E856D20021A7A7 /* GoogleService-Info.plist in Resources */,
+				ED8EFC0921E5E47200B19D31 /* Assets.xcassets in Resources */,
+				ED8EFC0421E5E47000B19D31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A976DEB516986BE4B71177F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CloudFirestoreTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80EC1A5E81811C080DD07D63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CloudFirestoreTraining/Pods-CloudFirestoreTraining-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudFirestoreTraining/Pods-CloudFirestoreTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED8EFBF721E5E47000B19D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8EFC0121E5E47000B19D31 /* ViewController.swift in Sources */,
+				ED8EFC0721E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodeld in Sources */,
+				ED8EFBFF21E5E47000B19D31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED8EFC0221E5E47000B19D31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8EFC0321E5E47000B19D31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED8EFC0A21E5E47200B19D31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED8EFC0B21E5E47200B19D31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED8EFC0E21E5E47200B19D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED8EFC0F21E5E47200B19D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED8EFC1121E5E47200B19D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF395DA46F5314C85D9FEB8 /* Pods-CloudFirestoreTraining.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2J3NC7X3D;
+				INFOPLIST_FILE = CloudFirestoreTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kent.CloudFirestoreTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED8EFC1221E5E47200B19D31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D96CCBD29BE0B87221C647B6 /* Pods-CloudFirestoreTraining.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2J3NC7X3D;
+				INFOPLIST_FILE = CloudFirestoreTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kent.CloudFirestoreTraining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED8EFBF621E5E47000B19D31 /* Build configuration list for PBXProject "CloudFirestoreTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8EFC0E21E5E47200B19D31 /* Debug */,
+				ED8EFC0F21E5E47200B19D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED8EFC1021E5E47200B19D31 /* Build configuration list for PBXNativeTarget "CloudFirestoreTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED8EFC1121E5E47200B19D31 /* Debug */,
+				ED8EFC1221E5E47200B19D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED8EFC0521E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED8EFC0621E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodel */,
+			);
+			currentVersion = ED8EFC0621E5E47000B19D31 /* CloudFirestoreTraining.xcdatamodel */;
+			path = CloudFirestoreTraining.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED8EFBF321E5E47000B19D31 /* Project object */;
+}
